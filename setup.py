@@ -25,7 +25,7 @@ with open('requirements.txt', 'r', encoding='utf-8') as f:
     reqs = f.read()
 
 setup(
-    name='text2vec',
+    name='whjtext2vec',
     version=__version__,
     description='Text to vector Tool, encode text',
     long_description=readme,
